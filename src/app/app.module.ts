@@ -27,10 +27,18 @@ const yourFirebaseConfig = {
 
 // Delete Me!
 import { firebase } from '../env';
+import { HomeComponent } from './home/home.component';
+import { AnimalsComponent } from './animals/animals.component';
+import { AnimalDetailComponent } from './animal-detail/animal-detail.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AnimalsComponent,
+    AnimalDetailComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<div *ngIf="animal$ | async as animal">
+
+    <h1>{{ animal.name }}</h1>
+    <p>{{ animal.bio }}</p>
+
+    <img [src]="animal.imgURL">
+
+</div>

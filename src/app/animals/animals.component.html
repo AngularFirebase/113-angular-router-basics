@@ -1,0 +1,11 @@
+<h1>Animal List</h1>
+
+<ul>
+    <li *ngFor="let animal of animals$ | async">
+
+        <a routerLinkActive="active" [routerLink]="['/animals', animal.name.toLowerCase()]">{{ animal.name }}</a>
+
+    </li>
+</ul>
+
+<router-outlet></router-outlet>

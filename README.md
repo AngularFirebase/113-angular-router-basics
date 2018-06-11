@@ -1,7 +1,5 @@
-# Episode 10X
+# Episode 113 - Angular 6 Router Basics
 
+Learn the basic techniques needed to be successful with the Angular router.
 
-1. `git clone <this-repo>` 
-2. `npm install`
-3.  Add your firebase credentials to the `app.module`
-4. `ng serve`
+Watch the [screencast](https://angularfirebase.com/lessons/).
